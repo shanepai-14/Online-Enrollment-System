@@ -1,3 +1,8 @@
+<?php 
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,8 +29,10 @@
   <a class="nav-link" href="login.php">Login</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Signup</a>
+    <a class="nav-link" href="signup.php">Signup</a>
   </li>
+
+ 
 
 </ul>
 </div>
@@ -42,7 +49,7 @@
 
 
 </p>
-<button class="btn-warning btn-lg">Enroll Now</button>
+<button class="btn-warning btn-lg"><a  class="nav-link  btn-sm"  href="login.php">Enroll Now</a></button>
     </div>
     <img src="dvc.png" class="img-fluid w-30 d-none  d-sm-block" width="350" alt=""/>
 </div>
